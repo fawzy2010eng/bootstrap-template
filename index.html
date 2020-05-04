@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>bootstrap</title>
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Avand<span>a:</span></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Avanda Live</a></li>    
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Theme Feature <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            
+            </div><!-- /.container-fluid -->
+        
+        </nav>
+        
+        <div class="control">
+            <div class="color-option">
+                <h4>color option</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/default-theme.css"></li>
+                    <li data-value="css/pink-theme.css"></li>
+                    <li data-value="css/sky-theme.css"></li>
+                    <li data-value="css/brown-theme.css"></li>
+                </ul>
+            </div>
+            <img  class="gearbox"src="art/gear.png">
+        </div>
+        
+        <div class="jumbotron">
+				
+				<!-------------- first carousel slidesshow start -------------->
+				<div id="carousel-1" class="carousel slide" data-ride="carousel">
+					<!-- slides bulletes -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-1" data-slide-to="1"></li>
+						<li data-target="#carousel-1" data-slide-to="2"></li>
+					</ol>
+
+					<!-- wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<!-- slides 1 -->
+						<div class="item active">
+							<img src="img/03.jpg" alt="Chania">
+						</div>
+						
+						<!-- slides 2 -->
+						<div class="item">
+							<img src="img/02.jpg" alt="Chania">
+						</div>
+						
+						<!-- slides 3 -->
+						<div class="item">
+							<img src="img/01.jpg" alt="Flower">
+						</div>
+					</div>
+
+					<!-- left and right slides control arrrows -->
+					<a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<!-------------- first carousel slidesshow end -------------->
+			</div>
+        
+        <div class="aboutus text-center">
+            <div class="container">
+                <h3>Meet Our New Template <span>Elzero Inc.</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        
+        <div class="ourfeatures text-center">
+            <div class="container">
+                <h3>Our Features</h3>
+                <div class="feats">
+                    <div class="row">
+                        <div class="feat col-lg-3 col-md-6 col-sm-12">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            <h3>100% responsive design</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+
+                        <div class="feat col-lg-3 col-md-6 col-sm-12">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                            <h3>high quality documented</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>                        
+                        <div class="feat col-lg-3 col-md-6 col-sm-12">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                            <h3>well opserved</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+
+                        <div class="feat col-lg-3 col-md-6 col-sm-12">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <h3>avanda ready</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+				<center><h1>what our clients say</h1></center>
+				
+				<!-------------- second carousel slidesshow start -------------->
+				<div id="carousel-2" class="carousel slide" data-ride="carousel">
+					<!-- slides bulletes -->
+					<ol class="carousel-indicators">
+						<div data-target="#carousel-2" data-slide-to="0" class="active"><img src="clients/p2.jpg"></div>
+                        
+						<div data-target="#carousel-2" data-slide-to="1"><img src="clients/p1.png"></div>
+						
+                        <div data-target="#carousel-2" data-slide-to="2"><img src="clients/p3.png"></div>
+                        
+                        
+					</ol>
+
+					<!-- wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<!-- slides 1 -->
+						<div class="item active">
+							<div class="carousel-caption">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                                <h4>Doctor</h4>
+                            </div>
+						</div>
+						
+						<!-- slides 2 -->
+						<div class="item">
+							<div class="carousel-caption">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                                <h4>Engineer</h4>
+                            </div>
+						</div>
+						
+						<!-- slides 3 -->
+						<div class="item">
+                            <div class="carousel-caption">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                                <h4>Lawyer</h4>
+                            </div>
+						</div>
+					</div>
+
+					<!-- left and right slides control arrrows -->
+					<a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-2" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<!-------------- second carousel slidesshow end -------------->
+			</div>
+        
+        <div class="plans text-center">
+            <div class="container">
+                <h2>Our Pricing Plans</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="plan text-center">
+                            <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>bronze plan</h3>
+                                    <h5>Space:40GB</h5>
+                                    <h5>Email:20</h5>
+                                    <h5>IPS:2</h5>
+                                    <h5>Database:10</h5>
+                                    <h5>Flp Accounts:5</h5>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div><span>$40</span></div>
+                                    <button class="btn btn-info">Submit</button></div>
+                              </div>
+		                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="plan text-center">
+                            <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>bronze plan</h3>
+                                    <h5>Space:40GB</h5>
+                                    <h5>Email:20</h5>
+                                    <h5>IPS:2</h5>
+                                    <h5>Database:10</h5>
+                                    <h5>Flp Accounts:5</h5>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div><span>$40</span></div>
+                                    <button class="btn btn-info">Submit</button></div>
+                              </div>
+		                    </div>
+                        </div>
+                    </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="plan text-center">
+                            <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>bronze plan</h3>
+                                    <h5>Space:40GB</h5>
+                                    <h5>Email:20</h5>
+                                    <h5>IPS:2</h5>
+                                    <h5>Database:10</h5>
+                                    <h5>Flp Accounts:5</h5>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div><span>$40</span></div>
+                                    <button class="btn btn-info">Submit</button></div>
+                              </div>
+		                    </div>
+                        </div>
+                    </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="plan text-center">
+                            <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>bronze plan</h3>
+                                    <h5>Space:40GB</h5>
+                                    <h5>Email:20</h5>
+                                    <h5>IPS:2</h5>
+                                    <h5>Database:10</h5>
+                                    <h5>Flp Accounts:5</h5>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div><span>$40</span></div>
+                                    <button class="btn btn-info">Submit</button></div>
+                              </div>
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ourteam">
+            <div class="team">
+                <div class="container">
+                    <h3 class="text-center"> welcome our team</h3>
+                    <div class="row">
+                        <div class="person col-lg-3 col-sm-6 text-center">
+                            <img class="img-circle" src="team/bill%20gates.jpg">
+                            <h3>bill gates</h3>
+                            <p>the founder of microsoft and the most rich man alive</p>
+                            <i class="fab fa-accusoft"></i>
+						</div>
+                        <div class="person col-lg-3 col-sm-6 text-center">
+                        <img class="img-circle" src="team/steve%20jobs.jpg">
+                        <h3>steve jobs</h3>
+                        <p>the founder of apple and the man who gave anthor meaning to mobile phones</p>
+                    </div>
+                        <div class="person col-lg-3 col-sm-6 text-center">
+                        <img class="img-circle" src="team/jeff.jpg">
+                        <h3>jeff bozes</h3>
+                        <p>the founder of amazon and the most rich man alive</p>
+                    </div>
+                        <div class="person col-lg-3 col-sm-6 text-center">
+                        <img class="img-circle" src="team/walter%20white.jpg">
+                        <h3>walter white</h3>
+                        <p>the man who made us love chimestry </p>
+                    </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="subscribe text-center">
+            <div class="container">
+                <h3>keep in touch</h3>
+                <p>sign up for newsettlers don't worry about spam we hate it too</p>
+                <form>
+                    <input type="email" placeholder="Enter Your Email Here">
+                    <input  class="btn-danger"type="button" value ="subscribe">
+                </form>
+            </div>
+        </div>
+                
+        <div class="skillsandinfo">
+            <div class="container">
+                <div class="row">
+                   <div class="skills col-md-6">
+                      <div class="progress">
+                        <div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100" style="width:80%"><span>HTML5</span>
+                        </div>
+                      </div>
+                      <div class="progress">
+                         <div class="progress-bar progress-bar-success  progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:70%"><span>CSS3</span>
+                         </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger  progress-bar-striped active" role="progressbar" aria-valuenow="65"
+                        aria-valuemin="0" aria-valuemax="100" style="width:65%"><span>jAVASCRIPT</span>
+                        </div>
+                      </div>
+                   </div> 
+                   <div class="info col-md-6" style="color :green">
+                       <h3>INFORMATION ABOUT THE COMPANY</h3>
+                       <P class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+                   </div>                   
+                </div>
+            </div>
+        </div>
+        
+        <div class="customers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-12">
+                        <img src="customers/bbc.jpg">
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <img src="customers/cnn.jpg">
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <img src="customers/forbes.png">
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <img src="customers/bbc.jpg">
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <img src="customers/cnn.jpg">
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <img src="customers/forbes.png">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="sitemap col-md-4 col-xs-6">
+                        <h2>sitemap</h2>
+                        <h4>Home</h4>
+                        <h4>About</h4>
+                        <h4>Company</h4>
+                        <h4>Code</h4>
+                        <h4>Design</h4>
+                        <h4>Host</h4>
+                        <h4>Soultions</h4>
+                        <h4>Sitemap</h4>
+                        <h4>Contacts</h4>
+                        <div class="row">
+                            <div col-xs-2>
+                                <img src="icons/facebook.png">
+                            </div>
+                            <div col-xs-2>
+                                <img src="icons/rss_circle_color-128.png">
+                            </div>
+                            <div col-xs-2>
+                                <img src="icons/Intsagram-128.png">
+                            </div>
+                            <div col-xs-2>
+                                <img src="icons/Pinterest-128.png">
+                            </div>
+                            <div col-xs-2>
+                                <img src="icons/LinkedIn-128.png">
+                            </div>
+                            <div col-xs-2>
+                                <img src="icons/Twitter-128.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latestarticles  col-md-4 col-xs-6">
+                        <h2>Latest Article</h2>
+                        <figure>
+                            <img src="team/bill%20gates.jpg">
+                            <figcaption>first event</figcaption>
+                            <p>this's first event of our company and won't be the last</p>
+                        </figure>
+                        <figure>
+                            <img src="team/bill%20gates.jpg">
+                            <figcaption>first event</figcaption>
+                            <p>this's first event of our company and won't be the last</p>
+                        </figure>
+                        <figure>                                 <img src="team/bill%20gates.jpg">
+                            <figcaption>first event</figcaption>
+                            <p>this's first event of our company and won't be the last</p>
+                        </figure>
+                    
+                    </div>
+                    <div class="work col-md-4 col-xs-6" >
+                        <h2>Our Awesome Works</h2>
+                        <div class="row">
+                            <div><img src="art/01.jpg"></div>
+                            <div><img src="art/02.jpg"></div>
+                            <div><img src="art/03.jpg"></div>
+                            <div><img src="art/04.jpg"></div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+        
+        <div class="copy text-center">
+                Copyrights Reserved &copy;<a>To ELZERO WEB SCHOOL</a> .inc
+        </div>
+        
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

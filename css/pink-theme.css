@@ -1,0 +1,42 @@
+.navbar .navbar-brand span,.navbar-inverse .navbar-nav > li > a:hover{
+    color: rgb(204,33,101)
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    text-decoration-color: rgb(204,33,101)
+}
+
+.carousel-indicators .active {
+  background-color: rgb(204,33,101)
+}
+
+.carousel .left:hover ,.carousel .right:hover{
+    color: rgb(204,33,101)
+}
+
+.aboutus h3 span{
+    color: rgb(204,33,101)
+}
+
+.carousel-inner .carousel-caption h4{
+    color: rgb(204,33,101)
+} 
+
+.flip-card-back {
+    background-color: rgb(204,33,101)
+}
+
+.control .color-option{
+    border: solid 2px rgb(204,33,101)
+}
+
+.flip-card-front h3{
+    color: rgb(204,33,101)
+}
+
+.footer h2{
+    color: rgb(204,33,101);
+}
+
+.copy a{
+    color: RGB(204,33,101);     
+}
